@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "joi": "^18.0.1",
+    "morgan": "^1.10.1",
+    "package.json": "^2.0.1",
+    "pg": "^8.16.3",
+    "uuid": "^13.0.0"
+  },
+  "name": "nodejs-trello-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisher1devlog/nodejs-trello-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/alisher1devlog/nodejs-trello-service/issues"
+  },
+  "homepage": "https://github.com/alisher1devlog/nodejs-trello-service#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
